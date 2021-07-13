@@ -78,3 +78,29 @@ button a{
     font-weight: 400;
     margin: 0;
 }
+
+/* Footer styles  */
+
+.footer-logo{
+    text-align: center;
+    margin: 158px 0 63px;
+}
+.footer-logo img{
+    width: 483px;
+    height: 110px;
+}
+.social-icon .icon{
+    width: 32px;
+    height: 32px;
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+    padding: 8px;
+    color: #312828;
+    margin: 0 7px;
+}
+small{
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 20px 0;
+}
