@@ -8,7 +8,10 @@
 body{
     font-family: 'Poppins', sans-serif; 
 }
-/* Banner styles */
+/* ------------------
+    Banner styles 
+-------------------- */
+
 .banner{
     background-color: #2D25A0;
     height: 677px;
@@ -90,21 +93,56 @@ button a{
 }
 .player-name{
     font-size: 28px;
+    color: #18191F;
     font-weight: 700;
     margin: 16px 0 10px;
 }
 .player-info{
     font-size: 16px;
+    color: #6C6C6C;
     font-weight: 400;
     margin: 0;
 }
 
-/* Contact Info  */
+/* ------------------
+    Highlights styles 
+---------------------- */
+
+.highlights{
+    width: 1050px;
+    margin: auto;
+    display: flex;
+    padding: 150px 0 50px;
+    align-items: center;
+}
+.copa-america{
+    padding: 0 20px;
+}
+.copa-info h2{
+    font-weight: 700;
+    font-size: 48px;
+    color: #0A0826;
+}
+
+.copa-info p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #6C6C6C;
+    margin-bottom: 24px;
+}
+
+.match img{
+    width: 469px;
+}
+
+/* ----------------
+    Contact Info  
+------------------- */
 
 .contact-form{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin: 50px;
 }
 .form{
     margin: 0 15px;
@@ -129,7 +167,9 @@ button a{
     border: 0;
 }
 
-/* Footer styles  */
+/* ------------------
+    Footer styles  
+-------------------- */
 
 .footer-logo{
     text-align: center;
@@ -163,7 +203,9 @@ small{
 
 @media only screen and (max-width: 688px) {
 
-    .banner, .container{
+    /* Banner styles  */
+
+    .banner, .container, .highlights{
         width: 100%;
         
     }
@@ -196,6 +238,23 @@ small{
         margin: auto;
     }
 
+    /* Highlights styles  */
+
+    .highlights{
+        flex-direction: column;
+        padding: 60px 0 0;
+    }
+    .copa-america{
+        width: 329px;
+    }
+    .copa-info h2{
+        font-size: 30px;
+    }
+    .match img{
+        width: 324px;
+        margin: 29px 0;
+    }
+
     /* Contact form  */
 
     .contact-form{
@@ -217,26 +276,34 @@ small{
     }
 }
 
-/* Tablet devices  */
+/* ---------------------
+     Tablet devices
+ --------------------  */
 
 @media only screen and (min-width:689px) and (max-width:992px){
-    .banner, .container{
+
+    /* Banner styles  */
+
+    .banner, .container, .highlights{
         width: 100%;
+    }
+    .banner{
+        height: 695px;
     }
     .top-part{
         flex-direction: column;
     }
     .title{
-        margin: 58px 0 0;
+        margin: 30px 0 0;
     }
     .title-name{
-        font-size: 38px;
+        font-size: 45px;
     }
     .banner-image{
         margin: 40px 0 0;
     }
     .banner-image img{
-        width: 380px;
+        width: 400px;
     }
     
     /* Players styles  */
@@ -249,6 +316,23 @@ small{
         width: 330px;
         height: 474px;
         margin: auto;
+    }
+
+    /* Highlights styles  */
+
+    .highlights{
+        justify-content: center;
+        padding: 60px 0 0;
+    }
+    .copa-america{
+        width: 350px;
+    }
+    .copa-info h2{
+        font-size: 30px;
+    }
+    .match img{
+        width: 364px;
+        margin: 29px 0;
     }
 
     /* Contact form  */
