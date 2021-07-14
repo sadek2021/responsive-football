@@ -99,11 +99,41 @@ button a{
     margin: 0;
 }
 
+/* Contact Info  */
+
+.contact-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.form{
+    margin: 0 15px;
+}
+.form input{
+    background-color: #fad0d0;
+    height: 40px;
+    width: 400px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 0;
+}
+.massage{
+    margin: 0 15px;
+}
+.massage textarea{
+    background-color: #fad0d0;
+    width: 400px;
+    height: 92px;
+    margin-bottom: 20px;
+    padding: 7px 7px;
+    border: 0;
+}
+
 /* Footer styles  */
 
 .footer-logo{
     text-align: center;
-    margin: 158px 0 63px;
+    margin: 58px 0 63px;
 }
 .footer-logo img{
     width: 483px;
@@ -166,6 +196,19 @@ small{
         margin: auto;
     }
 
+    /* Contact form  */
+
+    .contact-form{
+        flex-direction: column;
+        align-items: center;
+    }
+    .form input{
+        width: 314px;
+    }
+    .massage textarea{
+        width: 314px;
+    }
+
     /* Footer styles  */
 
     .footer-logo img{
@@ -206,6 +249,15 @@ small{
         width: 330px;
         height: 474px;
         margin: auto;
+    }
+
+    /* Contact form  */
+
+    .form input{
+        width: 340px;
+    }
+    .massage textarea{
+        width: 340px;
     }
 
     /* Footer styles  */
